@@ -1,0 +1,86 @@
+<html>
+    <head>
+    <title>Form</title>
+    </head>
+<body>
+    <form action="contact.php" method="POST">
+<h2>Student Registration Form </h2>
+<p>
+    <label>Date:</label>
+    <input type="date" name="tanggal" />
+</p>
+
+
+<fieldset>
+    <legend><h4>PERSONAL INFORMATION</h4></legend>
+    <p>
+        <label>NAME:</label>
+        <input type="text" name="name" />
+    </p>
+    <p>
+        <label>DATE OF BIRTH:</label>
+        <input type="date" name="dob" />
+    </p>
+    </fieldset>
+
+    <fieldset>
+        <legend><h4>CONTACT INFORMATION</h4></legend>
+        <p>
+            <label>ADDRESS:</label>
+            <input type="text" name="address" />
+        </p>
+        <p>
+            <label>CITY:</label>
+            <input type="text" name="city" />
+        </p>
+        <p>
+            <label>PROVINCE/STATE:</label>
+            <input type="text" name="province" />
+        </p>
+        <p>
+            <label>COUNTRY:</label>
+            <input type="text" name="country" />
+        </p>
+        <p>
+            <label>ZIP CODE:</label>
+            <input type="number" name="zipcode" />
+        </p>
+        <p>
+            <label>PHONE:</label>
+            <input type="number" name="phone" />
+        </p>
+        <p>
+            <label>EMAIL:</label>
+            <input type="email" name="email" />
+        </p>
+        <p>
+            <label>MEMBERSHIP TYPE:</label>
+            <input type="radio" id="regular" name="membership" value="regular">
+            <label for="regular">Regular</label>
+            <input type="radio" id="premium" name="membership" value="premium">
+            <label for="premium">Premium</label>
+            <input type="radio" id="vip" name="membership" value="vip">
+            <label for="vip">VIP</label>
+        </p>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>COURSE INFORMATION</h4></legend>
+            <p>
+                <label>COURSE NAME:</label>
+                <input type="course" name="course" />
+            </p>
+            <p>
+                <label>PAYMENT DETAIL:</label>
+                <input type="radio" id="cash" name="payment" value="cash">
+                <label for="cash">Cash</label>
+                <input type="radio" id="cheque" name="payment" value="cheque">
+                <label for="cheque">Cheque</label>
+                <input type="radio" id="credit" name="payment" value="credit">
+                <label for="debit">Credit Card</label>
+            </p>
+            </fieldset>
+    <input type="submit" name="submit" value="Submit" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+/*Dokumen CSS*/
+
+    cetak_tebal{
+    font-family:Verdana, Ariawal, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    color:rgb(44, 48, 104);
+    }
+
+    td{
+    font-weight:bold;
+    color:rgb(12, 118, 160)
+    }
